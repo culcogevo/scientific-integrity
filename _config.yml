@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
