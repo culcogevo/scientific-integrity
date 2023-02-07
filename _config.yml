@@ -20,13 +20,18 @@
 
 title: The Scientfic Integrity Project
 email: culture.cognition.evo.lab@gmail.com
-#description: >- # this means to ignore newlines until "baseurl:"
-#baseurl: "" # the subpath of your site, e.g. /blog
+#description: >- # this means to ignore newlines until "baseurl:" 
+
+# Inluding baseurl: and url: prevents github pages from using the theme for some reason
+#baseurl: "" # the subpath of your site, e.g. /blog 
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: CCC_Lab_Harvard
 
 # Build settings
-#theme: minima
+
+#theme: minima #I converted the gem-based theme to a regular theme, following the instructions here: https://jekyllrb.com/docs/themes/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
